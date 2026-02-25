@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v6
       - name: Synchronize SE GitLab
         run: |
-          git remote add mirror https://oauth2:${{ secrets.SE_GIT_MIRROR }}@git.se.informatik.uni-kiel.de/kieker/kieker.git
+          git remote add mirror https://oauth2:${{ secrets.SE_GIT_MIRROR }}@git.se.informatik.uni-kiel.de/shinhyungyang/kieker.git
           git push mirror main --force
