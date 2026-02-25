@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - name: Synchronize SE GitLab
         run: |
           git remote add mirror https://oauth2:${{ secrets.SE_GIT_MIRROR }}@git.se.informatik.uni-kiel.de/shinhyungyang/kieker2.git
