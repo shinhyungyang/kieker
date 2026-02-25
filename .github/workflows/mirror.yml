@@ -13,5 +13,4 @@ jobs:
       - name: Synchronize SE GitLab
         run: |
           git remote add mirror https://oauth2:${{ secrets.SE_GIT_MIRROR }}@git.se.informatik.uni-kiel.de/shinhyungyang/kieker2.git
-          git pull
-          git push mirror main
+          git push mirror main --force
