@@ -1,23 +1,17 @@
 .. _kieker-documentation:
-
 Kieker Documentation
 ====================
-
-**Kieker** is a Java-based application performance monitoring and
-dynamic software analysis framework. Monitoring adapters for other
-platforms, such as C, C++, Visual Basic 6 (VB6), .NET, and COBOL, exist
-as well
+**Kieker** is an observability framework designed for performance monitoring
+and dynamic software analysis framework. While Kieker primarily focuses on
+Java-based application, monitoring adapters for other platforms, such as C,
+C++, Visual Basic 6 (VB6), .NET, COBOL, and Python exist as well
 (`Contact <http://kieker-monitoring.net/support/Contact>`__ us
 directly if you are interested in Kieker support for other platforms).
-
 A general introduction can be found in :ref:`introduction`.
-
 Table of Contents
 -----------------
-
 .. toctree::
    :maxdepth: 1
-
    introduction
    quick-start-guide
    getting-started/Getting-Started.rst
@@ -29,43 +23,36 @@ Table of Contents
    architecture/Architecture.rst
    lectures/Lectures.rst
    related-work/Related-Work.rst
-
-
 Licensing
 ---------
-
 **Kieker** is licensed under the Apache License, Version 2.0. You may
-obtain a copy of the license at <http://www.apache.org/licenses/LICENSE-2.0>
-
+obtain a copy of the license at Apache Software Foundation, `Apache License,
+Version 2.0 | <http://www.apache.org/licenses/LICENSE-2.0>`__.
 The **Kieker** source and binary release archives include a number of
 third-party libraries.
 The ``lib/`` directory of the release archives contains a ``.LICENSE``
 file for each third-party library, pointing to the respective license
 text.
-
 .. Appendix~\ref{appendix:libraries} lists these
-.. libraries along with information on the licenses. 
-
+.. libraries along with information on the licenses.
 Citing Kieker
 -------------
-
 When referencing Kieker resources in your publications, we would be
 happy if you respected the following guidelines:
-
-- When referencing the Kieker project, please cite our `ICPE-2012 <https://github.com/kieker-monitoring/kieker/blob/main/documentation/references/kieker-ipce-2012.bib>`_
-  paper and/or our 2009 technical report [`TR-0921 <https://github.com/kieker-monitoring/kieker/blob/main/documentation/references/kieker-tr-0921.bib>`_]. Also, you might
-  want to add a reference to our web site
-  (<http://kieker-monitoring.net/>) like
+- When referencing the Kieker project, please cite our
+  `ICPE-2025 <https://github.com/kieker-monitoring/kieker/blob/main/documentation/references/kieker-ipce-2025.bib>`_,
+  `JSIMPA-2020 <https://github.com/kieker-monitoring/kieker/blob/main/documentation/references/kieker-jsimpa-2020.bib>`_,
+  `ICPE-2012 <https://github.com/kieker-monitoring/kieker/blob/main/documentation/references/kieker-ipce-2012.bib>`_
+  papers and/or our 2009 technical report
+  [`TR-0921 <https://github.com/kieker-monitoring/kieker/blob/main/documentation/references/kieker-tr-0921.bib>`_].
+  Also, you might want to add a reference to our web site
+  (http://kieker-monitoring.net/) like
   ::
-  
     @MISC{KiekerWebSite,
       author = {{Kieker Project}},
-      title = {Kieker web site},
-      year = CURYEAR,
-      url = {http://kieker-monitoring.net/}
+      title  = {Kieker web site},
+      year   = CURYEAR,
+      url    = {http://kieker-monitoring.net/}
     }
-  
-- When referencing this user guide, e.g., when reprinting contents, 
+- When referencing this user guide, e.g., when reprinting contents,
   please use a proper citation.
-
-
